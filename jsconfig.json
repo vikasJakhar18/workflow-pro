@@ -2,6 +2,10 @@
   "compilerOptions": {
     "paths": {
       "@/*": ["./*"]
-    }
-  }
+    },
+    "module": "esnext",
+    "target": "es2022",
+    "jsx": "preserve"
+  },
+  "exclude": ["node_modules"]
 }
